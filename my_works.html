@@ -16,7 +16,16 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body>		
+	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 header">
@@ -162,7 +171,11 @@
 				<div class="row gallery">
 					<div class="col-xs-12" id="vegas"></div>
 				</div>
-			</div>			
+			</div>	
+		
+		<div class="fb-comments" data-href="https://anja46.github.io/zavrsniprojekt/my_works.html" data-numposts="20"></div>
+		<div class="fb-like" data-href="https://anja46.github.io/zavrsniprojekt/my_works.html" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+		
 			<div class="row footer">
 				<img src="img/footer_title.png">
 				<div class="col-xs-12">
