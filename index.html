@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112701122-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-112701122-1');
+		</script>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Anja Mitrović</title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="lightbox/css/lightbox.css" rel="stylesheet">		
+		<link href="socicon/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto:300,400" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">		
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>		
+		<div class="container">
+		
+			<div class="row">
+				<div class="hamburger">
+					<span class="glyphicon glyphicon-menu-hamburger" onclick="toggleMenu()"></span>
+				</div>
+				<ul class="main-menu" id="mainMenu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about_me.html">About me</a></li>
+					<li><a href="my_works.html">My works</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>			
+			<div class="section">
+				<h1>Featured works</h1>
+				<div class="row gallery">
+					<div class="col-xs-12 col-sm-6 image-container">
+						<img src="img/Machine.jpg">
+						<div class="overlay">
+							<p><a href="img/Machine.jpg" data-lightbox="g1">The Jack-o'-lanterns industry. Carving The Great pumpkin on All Hallows' Eve. </a></p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 image-container">
+						<img src="img/positive.gif">
+						<div class="overlay">
+							<p><a href="positive.gif" data-lightbox="g1">Positive and Negative </a></p>
+						</div>
+					</div>	
+				</div>
+			</div>
+		<div class="section">
+				<h1>Social media</h1>
+				<div class="row square-blocks">
+					<div class="col-sm-6 col-md-3 light-gray-bg">
+						<p>
+							<a href="https://www.facebook.com/xxzxczxmeh" target="_blank">
+								<span class="socicon-facebook"></span>
+							</a>
+						</p>
+					</div>
+					<div class="col-sm-6 col-md-3 light-gray-bg">
+						<p>
+							<a href="https://www.instagram.com/mehxxzxczx/?hl=hr" target="_blank">
+								<span class="socicon-instagram"></span>
+							</a>
+						</p>
+					</div>
+					<div class="col-sm-6 col-md-3 light-gray-bg">
+						<p>
+							<a href="https://www.behance.net/mitrovic_anja" target="_blank">
+								<span class="socicon-behance"></span>
+							</a>
+						</p>
+					</div>
+					<div class="col-sm-6 col-md-3 light-gray-bg">
+						<p>
+							<a href="https://www.linkedin.com/in/anja-mitrovi%C4%87-84b5a1150/" target="_blank">
+								<span class="socicon-linkedin"></span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>									
+			<div class="row footer">
+				<img src="img/footer_title.png">
+				<div class="col-xs-12">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about_me.html">About me</a></li>
+						<li><a href="my_works.html">My works</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>			
+		</div>			
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>		
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="lightbox/js/lightbox.js"></script>
+		<script>
+			
+			$('.hamburger').click(function(){
+				$('.main-menu').slideToggle(); 
+			});
+		</script>
+	</body>
+</html>
