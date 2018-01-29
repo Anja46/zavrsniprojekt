@@ -183,11 +183,10 @@ body {
 .footer ul li a {
 	color: #000000;
 	font-size: 18pt;
-	padding-left: 30px;
+	padding-left: 60px;
 	padding-right: 30px;
 	display: block;
 	text-decoration: none;
-	text-align: center; 
 }
 
 @media screen and (max-width:760px) { 
