@@ -175,7 +175,7 @@ body {
 }	
 .footer ul {
 	margin-top: 100px;
-	float: right;
+	float: center;
 }
 .footer ul li {
 	display: inline-block;
