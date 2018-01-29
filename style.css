@@ -179,7 +179,6 @@ body {
 }
 .footer ul li {
 	display: inline-block;
-	text-align: center;
 }
 .footer ul li a {
 	color: #000000;
@@ -203,6 +202,7 @@ body {
 	}
 	.footer ul li {
 		display: block;
+		text-align: center;
 	}
 }
 
