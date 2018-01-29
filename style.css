@@ -175,10 +175,11 @@ body {
 }	
 .footer ul {
 	margin-top: 100px;
-	float: left;
+	float: right;
 }
 .footer ul li {
 	display: inline-block;
+	text-align: center;
 }
 .footer ul li a {
 	color: #000000;
